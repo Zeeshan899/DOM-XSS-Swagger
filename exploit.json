@@ -1,0 +1,9 @@
+{
+    "url": "https://raw.githubusercontent.com/MuhammadUsman-coder/DOM-XSS-Swagger/main/newtest.yaml",
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/MuhammadUsman-coder/DOM-XSS-Swagger/main/newtest.yaml",
+            "name": "Foo"
+        }
+    ]
+}
