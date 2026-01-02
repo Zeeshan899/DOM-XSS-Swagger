@@ -1,0 +1,53 @@
+---
+swagger: '2.0'
+info:
+  title: Classic API Resource Documentation
+  description: Classic API description
+  version: production
+
+basePath: https://evil.com
+
+produes:
+- application/xml
+- application/json
+
+consumes:
+- application/xml
+- application/json
+
+security:
+- basicAuth: []
+
+paths:
+  "/hacked":
+    get:
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+      - Hacked By xee
+      operationId: findAccounts
+      summary: this is example text
+
+  "/malformed_brequest_by_xee":
+    get:
+      parameters:
+      - name: username
+        in: query
+        required: true
+        type: string
+        description: Username
+
+      - name: password
+        in: query
+        required: true
+        type: string
+        description: Password
+
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+      - afine
+      operationId: some_operation
+      summary: this is example text
